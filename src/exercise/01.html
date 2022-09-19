@@ -29,13 +29,13 @@
 </head>
 <body>
 <script type="module">
+    let root = document.createElement('div');
+    root.id = 'root';
+    document.body.append(root);
     let div = document.createElement('div')
-    div.textContent = 'Test git'
+    div.textContent = 'Hello World'
     div.className = 'container'
     document.getElementById('root').append(div)
 </script>
-<div id="root">
-
-</div>
 </body>
 </html>
