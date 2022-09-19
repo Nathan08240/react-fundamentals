@@ -25,8 +25,6 @@ function Box ({style, size,className ='', ...otherProps}) {
     )
 }
 
-
-
 function App() {
   return (
     <div>
